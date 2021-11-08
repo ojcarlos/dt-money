@@ -22,6 +22,18 @@ export const Container = styled.header`
             border: 0;
             background: var(--shape);
             color: var(--text-body);
+            border-radius: 0.25rem;
+
+            &:first-child {
+               color: var(--text-title);
+            }
+            
+            &.deposito{
+                color: var(--green);
+            }
+            &.retirada{
+                color: var(--red);
+            }
         }
     }
 `;
