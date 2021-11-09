@@ -30,6 +30,11 @@ export function NewTransactionModal({isOpen, onRequestClose}: newTransactionModa
                         <img src={incomeImg} alt="seta saindo" />
                         <span>Entrada</span>
                     </button>
+                    <button
+                    type="button">
+                        <img src={outcomeImg} alt="seta saindo" />
+                        <span>Saída</span>
+                    </button>
                 </TransactionTypeContainer>
                 <input placeholder="categoria" />
                 <button type="submit">
